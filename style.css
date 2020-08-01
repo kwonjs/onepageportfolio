@@ -1,0 +1,328 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            font-family: 'Poppins', sans-serif;
+        }
+
+.row {
+    display: flex;
+}
+
+/* Create x equal columns that sits next to each other */
+
+.column {
+    flex: 33%;
+    padding: 0.5vh;
+}
+
+
+/* unvisited link */
+a:link {
+  color: #240046;
+}
+
+/* visited link */
+a:visited {
+  color: #240046;
+}
+
+/* mouse over link */
+a:hover {
+  color: blueviolet;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #cfb8ff 60%);
+}
+
+header {
+
+        background-image:url(onepagesiteheader.png);
+        height: 100vh;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 5vh;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+
+}
+
+header h1 {
+    font-size: 5.2em;
+    padding-top: 35vh;
+    margin-bottom: 1vh;
+    text-shadow: 2px 2px #5e3db8;
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+.nav {
+    background-color: #f1e0ff; 
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5vh;
+    
+}
+
+.nav h2 {
+    font-size: 3em;
+    padding-top: 15vh; 
+}
+
+.nav ul {
+    padding-top: 2vh;
+    padding-left: 15vh;
+    font-size: 2em;
+}
+
+.about {
+    background-image:url(aboutmeheader.png);
+    height: 100vh;
+    text-align: left;
+    padding-left: 5vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.section-title {
+    font-size: 3em;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+.about p {
+    font-size: 2em;
+    text-shadow: 2px 2px #d1b5fa;
+}
+
+#about-box {
+    max-width: 80vh;
+}
+
+.resume {
+    background-image:url(linedpaper.png);
+    height: 100vh;
+    text-align: left;
+    padding-left: 6vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;   
+}
+
+.resume .section-title {
+    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.position-title {
+    font-size: 1.5em;
+    margin-bottom: 0%
+}
+
+.org-title {
+    font-size: 1.1em;
+    margin-top: 0%;
+    padding-bottom: 2%;
+}
+
+.featuredart {
+
+    background-color: #735fd4; 
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5vh;
+    
+}
+
+.featuredart .section-title {
+    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.featuredart img {
+    max-width: 40vh;
+    max-height: 40vh;
+    box-shadow: -5px 5px gold;
+}
+
+.featuredart .shadowtext {
+    text-shadow: -3px 3px 3px gold;
+}
+
+.featuredart p {
+    padding-top: 2vh;
+}
+
+.featuredart a:hover {
+    color: white;
+}
+
+.moreart {
+
+    background-color: #c0b3ff; 
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5vh;
+    
+}
+
+.moreart .section-title {
+    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.moreart img {
+    max-width: 40vh;
+    max-height: 40vh;
+    box-shadow: -5px 5px white;
+}
+
+.moreart p {
+    padding-top: 2vh;
+}
+
+.moreart a:hover {
+    color: white;
+}
+
+.featuredwriting {
+    background-color: #434ff7; 
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5vh;   
+}
+
+.featuredwriting .section-title {
+    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+(.featuredwriting, .morewriting) .column {
+    flex: 50%;
+    padding: 0.5vh;
+}
+
+.featuredwriting img {
+    max-width: 50vh;
+    max-height: 50vh;
+    box-shadow: -3px 3px white;
+}
+.morewriting img {
+    max-width: 50vh;
+    max-height: 50vh;
+    box-shadow: -3px 3px white;
+}
+
+.morewriting {
+
+    background-color: #969dff; 
+    height: 100vh;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-left: 5vh;
+    
+}
+
+.morewriting .section-title {
+    font-size: 3em;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.featuredwriting p {
+    padding-top: 2vh;
+}
+
+.featuredwriting a:hover {
+    color: white;
+}
+
+.featuredwriting .shadowtext {
+    text-shadow: -3px 3px 3px gold;
+}
+
+.morewriting p {
+    padding-top: 2vh;
+}
+
+.morewriting a:hover {
+    color: white;
+}
+
+.contact {
+
+        background-image:url(contactme.png);
+        height: 100vh;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 5vh;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+
+}
+
+.contact h1 {
+    font-size: 5.2em;
+    padding-top: 15vh;
+    margin-bottom: 1vh;
+    text-shadow: 2px 2px #5e3db8;
+}
+
+.contact h3 {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #5e3db8;
+}
+
+.contact img {
+    padding-top: 5vh;
+    max-width: 8vh;
+    max-height: 8vh;
+    padding-right: 2vh;
+}
+
+.contact p {
+    padding-top: 5vh;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact a:hover {
+    color: fuchsia;
+}
