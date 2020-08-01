@@ -1,2 +1,2 @@
-# onepageportfolio
-portfolio as of august 2020 - one page
+# jenny kwon's portfolio
+### one-page portfolio (as of aug 2020)
